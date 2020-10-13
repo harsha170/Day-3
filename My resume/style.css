@@ -1,0 +1,83 @@
+
+body {
+  background-color: rgb(188, 217, 226);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px ;
+}
+img {
+    float: left;
+    
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.header {
+  color: rgb(15, 15, 15);
+  text-align: center;
+  font-size: 100px;
+  font-family: fantasy;
+  background-color: DodgerBlue;
+}
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 50%;
+}
+
+.personal{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+}
+.contact{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    
+}
+.get{
+    color:Tomato; 
+    padding: 0px;
+}
+
+.area{
+    padding-left: 0%;
+
+}
+.container{
+    width: 45%;
+    display: block;
+    
+ }
+ .skills{
+    text-align: right;
+    color: rgb(250, 246, 246);
+ }
+ .html{
+    width: 90%;
+    color: red;
+    
+ }
+ .css{
+    width: 80%;
+    color: blue;
+    
+ }
+ .js{
+    width: 65%;
+    color: green;
+    
+ }
+ .python{
+    width: 60%;
+    color: violet;
+   
+ }
